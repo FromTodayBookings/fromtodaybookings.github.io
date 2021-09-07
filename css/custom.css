@@ -1,0 +1,70 @@
+:root {
+  --spacing-company: 3rem;
+  --font-weight: 400;
+  --border-radius: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2,
+h3,
+hgroup > :last-child {
+  font-weight: 200;
+}
+
+small {
+  color: var(--muted-color);
+}
+
+.hero {
+  background-color: #000000;
+  background-image: url("../images/background2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  padding: var(--spacing-company) 0;
+}
+
+header hgroup > :last-child {
+  color: var(--h3-color);
+}
+
+header hgroup {
+  margin-bottom: var(--spacing-company);
+}
+
+@media (min-width: 992px) {
+  main .grid {
+    grid-column-gap: var(--spacing-company);
+    grid-template-columns: auto 25%;
+  }
+}
+
+form.grid {
+  grid-row-gap: 0;
+}
+
+aside img {
+  margin-bottom: 0.25rem;
+}
+
+aside p {
+  margin-bottom: var(--spacing-company);
+  line-height: 1.25;
+}
+
+.title {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 4px;
+  font-size: 64px;
+  text-align: center;
+}
+
+.email {
+  text-decoration: none;
+}
