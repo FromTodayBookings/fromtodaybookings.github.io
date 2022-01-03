@@ -43,10 +43,19 @@ header hgroup {
     grid-column-gap: var(--spacing-company);
     grid-template-columns: auto 25%;
   }
+
+  main .past-grid {
+    grid-column-gap: var(--spacing-company);
+    grid-template-columns: 50% 50%;
+  }
 }
 
 form.grid {
   grid-row-gap: 0;
+}
+
+.past-img {
+  max-height: 700px;
 }
 
 aside img {
